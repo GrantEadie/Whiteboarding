@@ -1,0 +1,67 @@
+GRANT'S WHITEBOARDING INDEPENDENT PROJECT
+_________________________________________
+
+
+
+arrayInput = input.split()
+
+stringOutput = "";
+
+forLoopFunction(arrayInput){
+
+  for (let i = o; i <= inputArray.length; i++) {
+    let letterCounter = 0;
+    if(arrayInput[i] != arrayInput[i-1]){
+      if(array at this index === array of the index in front){
+        for(let j = i; j <= inputArray.length-1; j++){
+          if(letter at this index is equal to any letter in the array){
+            letterCount++
+          } else {
+            stringOutput = stringOutput + letterCount + (the letter at this point)
+            break;
+          }
+        }
+      } else {
+        stringOutput = stringOutput + (letter at this index);
+      }
+    }
+  }
+}
+
+let counter = 0;
+
+
+
+recursiveLoop(arrayInput){
+  if (counter >= arrayInput.length){
+    return;
+  }
+let counter1 = 0;
+  if(arrayInput[counter] != arrayInput[counter-1]){
+    if(this letter === the letter in front){
+      anotherRecursiveLoop(arrayInput[counter]){
+        if (counter1 >= arrayInput.length){
+          return;
+        }
+
+        if(letter at this point is equal to any letter in the array){
+          letterCount++
+        } else {
+          stringOutput = stringOutput + letterCount + (letter at this point)
+          return;
+        }
+        counter1++;
+        anotherRecursiveLoop;
+      }
+    }
+  } else {
+    stringOutput = stringOutput + arrayInput[counter];
+  }
+
+  counter++
+  recursiveLoop(arrayInput)
+}
+
+recursiveLoop(arrayInput);
+
+console.log(stringOutput);
